@@ -1,0 +1,20 @@
+# Rust build output
+target/
+**/*.rs.bk
+
+# Generated PDFs (test output) – docs/ images stay
+*.pdf
+
+# dist/: only the two release binaries are versioned
+dist/*
+!dist/pgnrepertoireprint.exe
+!dist/pgnrepertoireprint-linux
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
